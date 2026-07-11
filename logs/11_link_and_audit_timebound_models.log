@@ -1,0 +1,51 @@
+
+=== TimeBound model registry ===
+====================================================================================================
+KEY: qwen25_coder_1p5b
+KIND: small coder reader
+AVAILABLE: True
+PATH: /home/tahiti/TimeBound/models/Qwen__Qwen2.5-Coder-1.5B-Instruct
+SOURCE: /home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-1.5B-Instruct
+ACTION: symlink_created_to:/home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-1.5B-Instruct
+SIZE_GB: 2.89
+TYPE: qwen2
+ARCH: Qwen2ForCausalLM
+REASON: ok
+====================================================================================================
+KEY: qwen25_coder_7b
+KIND: main coder reader
+AVAILABLE: True
+PATH: /home/tahiti/TimeBound/models/Qwen__Qwen2.5-Coder-7B-Instruct
+SOURCE: /home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct
+ACTION: symlink_created_to:/home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct
+SIZE_GB: 14.2
+TYPE: qwen2
+ARCH: Qwen2ForCausalLM
+REASON: ok
+====================================================================================================
+KEY: qwen25_7b
+KIND: general Qwen reader
+AVAILABLE: True
+PATH: /home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct
+SOURCE: /home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct
+ACTION: canonical_exists
+SIZE_GB: 14.2
+TYPE: qwen2
+ARCH: Qwen2ForCausalLM
+REASON: ok
+====================================================================================================
+KEY: mistral_7b_v03
+KIND: non-Qwen reader
+AVAILABLE: True
+PATH: /home/tahiti/TimeBound/models/mistralai__Mistral-7B-Instruct-v0.3
+SOURCE: /home/tahiti/TimeBound/models/mistralai__Mistral-7B-Instruct-v0.3
+ACTION: canonical_exists
+SIZE_GB: 27.0
+TYPE: mistral
+ARCH: MistralForCausalLM
+REASON: ok
+
+Saved:
+/home/tahiti/TimeBound/stats/timebound_model_registry.csv
+/home/tahiti/TimeBound/stats/timebound_model_registry.json
+/home/tahiti/TimeBound/stats/timebound_model_paths.sh

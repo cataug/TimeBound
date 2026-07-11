@@ -1,0 +1,33 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:629: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:634: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:651: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+====================================================================================================
+MODEL: models/Qwen__Qwen2.5-Coder-1.5B-Instruct
+CUDA: True
+GPU: NVIDIA A100-PCIE-40GB
+VRAM allocated before: 0.0 GB
+====================================================================================================
+
+=== OUTPUT TAIL ===
+system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.
+user
+You are a temporal-memory QA system. Use only the context. Context: Alex scheduled a meeting for Monday. Later, Alex cancelled the meeting. Question: Is the meeting still scheduled? Answer briefly:
+assistant
+No, the meeting is not scheduled anymore.
+
+=== RESULT_JSON ===
+{
+  "model": "models/Qwen__Qwen2.5-Coder-1.5B-Instruct",
+  "load_sec": 3.18,
+  "gen_sec": 1.046,
+  "max_new_tokens": 64,
+  "cuda": true,
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "vram_allocated_gb": 2.884,
+  "vram_reserved_gb": 3.084
+}

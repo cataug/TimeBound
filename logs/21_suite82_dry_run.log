@@ -1,0 +1,88 @@
+====================================================================================================
+TimeBound Suite82
+plan: stats/run_plan_82.csv
+out: outputs/suite82
+selected runs: 82
+====================================================================================================
+A_tb_retrieval_main_semantic | A_main_retrieval | retrieval | timebound_long |  | semantic
+A_tb_retrieval_main_recency | A_main_retrieval | retrieval | timebound_long |  | recency
+A_tb_retrieval_main_semantic_recency | A_main_retrieval | retrieval | timebound_long |  | semantic_recency
+A_tb_retrieval_main_chronological | A_main_retrieval | retrieval | timebound_long |  | chronological
+A_tb_retrieval_main_timebound | A_main_retrieval | retrieval | timebound_long |  | timebound
+A_tb_retrieval_main_oracle | A_main_retrieval | retrieval | timebound_long |  | oracle
+B_score_semantic_only | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_score_temporal_only | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_score_status_only | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_score_semantic_temporal | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_score_semantic_status | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_score_temporal_status | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_score_full_timebound | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_metadata_no_status | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_metadata_no_valid_interval | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_metadata_no_event_time | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_metadata_no_observation_time | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_metadata_no_relation_links | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_metadata_no_query_time | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_metadata_full_metadata | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound_ablation
+B_topk_k1 | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound
+B_topk_k3 | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound
+B_topk_k5 | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound
+B_topk_k7 | B_retrieval_ablations | retrieval_ablation | timebound_long |  | timebound
+C_llm_timebound_qwen25_coder_1p5b_full_history | C_main_llm_timebound | llm | timebound_long | qwen25_coder_1p5b | full_history
+C_llm_timebound_qwen25_coder_1p5b_semantic_rag | C_main_llm_timebound | llm | timebound_long | qwen25_coder_1p5b | semantic_rag
+C_llm_timebound_qwen25_coder_1p5b_recency_rag | C_main_llm_timebound | llm | timebound_long | qwen25_coder_1p5b | recency_rag
+C_llm_timebound_qwen25_coder_1p5b_semantic_recency_rag | C_main_llm_timebound | llm | timebound_long | qwen25_coder_1p5b | semantic_recency_rag
+C_llm_timebound_qwen25_coder_1p5b_timebound_rag | C_main_llm_timebound | llm | timebound_long | qwen25_coder_1p5b | timebound_rag
+C_llm_timebound_qwen25_coder_1p5b_oracle_evidence | C_main_llm_timebound | llm | timebound_long | qwen25_coder_1p5b | oracle_evidence
+C_llm_timebound_qwen25_coder_7b_full_history | C_main_llm_timebound | llm | timebound_long | qwen25_coder_7b | full_history
+C_llm_timebound_qwen25_coder_7b_semantic_rag | C_main_llm_timebound | llm | timebound_long | qwen25_coder_7b | semantic_rag
+C_llm_timebound_qwen25_coder_7b_recency_rag | C_main_llm_timebound | llm | timebound_long | qwen25_coder_7b | recency_rag
+C_llm_timebound_qwen25_coder_7b_semantic_recency_rag | C_main_llm_timebound | llm | timebound_long | qwen25_coder_7b | semantic_recency_rag
+C_llm_timebound_qwen25_coder_7b_timebound_rag | C_main_llm_timebound | llm | timebound_long | qwen25_coder_7b | timebound_rag
+C_llm_timebound_qwen25_coder_7b_oracle_evidence | C_main_llm_timebound | llm | timebound_long | qwen25_coder_7b | oracle_evidence
+C_llm_timebound_qwen25_7b_full_history | C_main_llm_timebound | llm | timebound_long | qwen25_7b | full_history
+C_llm_timebound_qwen25_7b_semantic_rag | C_main_llm_timebound | llm | timebound_long | qwen25_7b | semantic_rag
+C_llm_timebound_qwen25_7b_recency_rag | C_main_llm_timebound | llm | timebound_long | qwen25_7b | recency_rag
+C_llm_timebound_qwen25_7b_semantic_recency_rag | C_main_llm_timebound | llm | timebound_long | qwen25_7b | semantic_recency_rag
+C_llm_timebound_qwen25_7b_timebound_rag | C_main_llm_timebound | llm | timebound_long | qwen25_7b | timebound_rag
+C_llm_timebound_qwen25_7b_oracle_evidence | C_main_llm_timebound | llm | timebound_long | qwen25_7b | oracle_evidence
+C_llm_timebound_mistral_7b_v03_full_history | C_main_llm_timebound | llm | timebound_long | mistral_7b_v03 | full_history
+C_llm_timebound_mistral_7b_v03_semantic_rag | C_main_llm_timebound | llm | timebound_long | mistral_7b_v03 | semantic_rag
+C_llm_timebound_mistral_7b_v03_recency_rag | C_main_llm_timebound | llm | timebound_long | mistral_7b_v03 | recency_rag
+C_llm_timebound_mistral_7b_v03_semantic_recency_rag | C_main_llm_timebound | llm | timebound_long | mistral_7b_v03 | semantic_recency_rag
+C_llm_timebound_mistral_7b_v03_timebound_rag | C_main_llm_timebound | llm | timebound_long | mistral_7b_v03 | timebound_rag
+C_llm_timebound_mistral_7b_v03_oracle_evidence | C_main_llm_timebound | llm | timebound_long | mistral_7b_v03 | oracle_evidence
+D_external_retrieval_tcp_semantic | D_external_diagnostics | retrieval | tcp |  | semantic
+D_external_retrieval_tcp_recency | D_external_diagnostics | retrieval | tcp |  | recency
+D_external_retrieval_tcp_semantic_recency | D_external_diagnostics | retrieval | tcp |  | semantic_recency
+D_external_retrieval_tcp_chronological | D_external_diagnostics | retrieval | tcp |  | chronological
+D_external_retrieval_tcp_timebound | D_external_diagnostics | retrieval | tcp |  | timebound
+D_external_retrieval_locomo_semantic | D_external_diagnostics | retrieval | locomo |  | semantic
+D_external_retrieval_locomo_recency | D_external_diagnostics | retrieval | locomo |  | recency
+D_external_retrieval_locomo_semantic_recency | D_external_diagnostics | retrieval | locomo |  | semantic_recency
+D_external_retrieval_locomo_chronological | D_external_diagnostics | retrieval | locomo |  | chronological
+D_external_retrieval_locomo_timebound | D_external_diagnostics | retrieval | locomo |  | timebound
+D_external_reader_tempreason_qwen25_coder_1p5b_query_only | D_external_diagnostics | llm | tempreason | qwen25_coder_1p5b | query_only
+D_external_reader_tempreason_qwen25_coder_7b_query_only | D_external_diagnostics | llm | tempreason | qwen25_coder_7b | query_only
+D_external_reader_tempreason_qwen25_7b_query_only | D_external_diagnostics | llm | tempreason | qwen25_7b | query_only
+D_external_reader_tempreason_mistral_7b_v03_query_only | D_external_diagnostics | llm | tempreason | mistral_7b_v03 | query_only
+D_external_reader_complextr_qwen25_coder_1p5b_query_only | D_external_diagnostics | llm | complextr | qwen25_coder_1p5b | query_only
+D_external_reader_complextr_qwen25_coder_7b_query_only | D_external_diagnostics | llm | complextr | qwen25_coder_7b | query_only
+D_external_reader_complextr_qwen25_7b_query_only | D_external_diagnostics | llm | complextr | qwen25_7b | query_only
+D_external_reader_complextr_mistral_7b_v03_query_only | D_external_diagnostics | llm | complextr | mistral_7b_v03 | query_only
+D_external_reader_tcp_qwen25_coder_1p5b_semantic_rag | D_external_diagnostics | llm | tcp | qwen25_coder_1p5b | semantic_rag
+D_external_reader_tcp_qwen25_coder_1p5b_timebound_rag | D_external_diagnostics | llm | tcp | qwen25_coder_1p5b | timebound_rag
+D_external_reader_tcp_qwen25_coder_7b_semantic_rag | D_external_diagnostics | llm | tcp | qwen25_coder_7b | semantic_rag
+D_external_reader_tcp_qwen25_coder_7b_timebound_rag | D_external_diagnostics | llm | tcp | qwen25_coder_7b | timebound_rag
+D_external_reader_tcp_qwen25_7b_semantic_rag | D_external_diagnostics | llm | tcp | qwen25_7b | semantic_rag
+D_external_reader_tcp_qwen25_7b_timebound_rag | D_external_diagnostics | llm | tcp | qwen25_7b | timebound_rag
+D_external_reader_tcp_mistral_7b_v03_semantic_rag | D_external_diagnostics | llm | tcp | mistral_7b_v03 | semantic_rag
+D_external_reader_tcp_mistral_7b_v03_timebound_rag | D_external_diagnostics | llm | tcp | mistral_7b_v03 | timebound_rag
+D_external_reader_locomo_qwen25_coder_1p5b_semantic_rag | D_external_diagnostics | llm | locomo | qwen25_coder_1p5b | semantic_rag
+D_external_reader_locomo_qwen25_coder_1p5b_timebound_rag | D_external_diagnostics | llm | locomo | qwen25_coder_1p5b | timebound_rag
+D_external_reader_locomo_qwen25_coder_7b_semantic_rag | D_external_diagnostics | llm | locomo | qwen25_coder_7b | semantic_rag
+D_external_reader_locomo_qwen25_coder_7b_timebound_rag | D_external_diagnostics | llm | locomo | qwen25_coder_7b | timebound_rag
+D_external_reader_locomo_qwen25_7b_semantic_rag | D_external_diagnostics | llm | locomo | qwen25_7b | semantic_rag
+D_external_reader_locomo_qwen25_7b_timebound_rag | D_external_diagnostics | llm | locomo | qwen25_7b | timebound_rag
+D_external_reader_locomo_mistral_7b_v03_semantic_rag | D_external_diagnostics | llm | locomo | mistral_7b_v03 | semantic_rag
+D_external_reader_locomo_mistral_7b_v03_timebound_rag | D_external_diagnostics | llm | locomo | mistral_7b_v03 | timebound_rag

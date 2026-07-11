@@ -1,0 +1,17 @@
+[INFO] dataset: 1000
+[INFO] semantic: 1000
+[INFO] timebound: 1000
+[INFO] full: 1000
+[INFO] main model: qwen25_coder_7b
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/01_semantic_fail_timebound_win_cards.png
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/01_semantic_fail_timebound_win_cards.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/02_one_case_four_readers_storyboard.png
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/02_one_case_four_readers_storyboard.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/03_full_history_vs_timebound_cases.png
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/03_full_history_vs_timebound_cases.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/04_temporal_evidence_timeline.png
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/04_temporal_evidence_timeline.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/05_timebound_failure_gallery.png
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/05_timebound_failure_gallery.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_QUALITATIVE/README_QUALITATIVE.md
+[DONE] qualitative panels saved to: /home/tahiti/TimeBound/PLOTS_QUALITATIVE

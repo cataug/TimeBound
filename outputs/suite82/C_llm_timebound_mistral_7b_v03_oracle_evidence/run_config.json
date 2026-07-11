@@ -1,0 +1,21 @@
+{
+  "run_id": "C_llm_timebound_mistral_7b_v03_oracle_evidence",
+  "block": "C_main_llm_timebound",
+  "run_type": "llm",
+  "dataset_key": "timebound_long",
+  "dataset_path": "synthetic/timebound_long.jsonl",
+  "retriever": "",
+  "regime": "oracle_evidence",
+  "model_key": "mistral_7b_v03",
+  "model_path": "models/mistralai__Mistral-7B-Instruct-v0.3",
+  "ablation_group": "",
+  "components": "",
+  "disabled_metadata": "",
+  "top_k": "3",
+  "alpha": "0.6",
+  "beta": "0.3",
+  "gamma": "0.3",
+  "limit": "",
+  "max_new_tokens": "64",
+  "note": "Main local LLM reader run on TimeBound-Long"
+}

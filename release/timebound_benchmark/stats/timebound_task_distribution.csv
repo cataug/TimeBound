@@ -1,0 +1,9 @@
+dataset,task_family,n,share
+TimeBound-Long,rescheduling,125,0.125
+TimeBound-Long,conflicting_updates,125,0.125
+TimeBound-Long,time_window_retrieval,125,0.125
+TimeBound-Long,aging_facts,125,0.125
+TimeBound-Long,periodic_events,125,0.125
+TimeBound-Long,delayed_observations,125,0.125
+TimeBound-Long,cancellation,125,0.125
+TimeBound-Long,elapsed_time_reasoning,125,0.125

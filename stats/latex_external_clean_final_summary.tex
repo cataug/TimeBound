@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Diagnostic role & Examples & Avg. turns & Validated & Leak rate \\
+\midrule
+complextr & interval qa & 329 & 4.0 & 329 / 329 & 0.000 \\
+locomo & long memory localization & 500 & 46.2 & 500 / 500 & 0.000 \\
+tcp & constraint scheduling & 600 & 21.0 & 600 / 600 & 0.000 \\
+tempreason & temporal arithmetic & 10000 & 1.0 & 10000 / 10000 & 0.000 \\
+\bottomrule
+\end{tabular}
+\caption{Clean converted external diagnostics in TimeBound-style format. Answer fields are removed from retrieved contexts before evaluation.}
+\label{tab:external_clean_final_stats}
+\end{table}

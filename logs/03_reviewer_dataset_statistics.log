@@ -1,0 +1,59 @@
+
+=== TimeBound summary ===
+       dataset                                                  path  n_examples  bad_jsonl_lines  n_task_families  history_min  history_mean  history_max  gold_evidence_min  gold_evidence_mean  gold_evidence_max  validation_ok  validation_non_ok
+TimeBound-Long /home/tahiti/TimeBound/synthetic/timebound_long.jsonl        1000                0                8           15        29.807           46                  1                 1.5                  2           1000                  0
+
+=== Task distribution ===
+       dataset            task_family   n  share
+TimeBound-Long           rescheduling 125  0.125
+TimeBound-Long    conflicting_updates 125  0.125
+TimeBound-Long  time_window_retrieval 125  0.125
+TimeBound-Long            aging_facts 125  0.125
+TimeBound-Long        periodic_events 125  0.125
+TimeBound-Long   delayed_observations 125  0.125
+TimeBound-Long           cancellation 125  0.125
+TimeBound-Long elapsed_time_reasoning 125  0.125
+
+=== Status distribution ===
+       dataset     status  n_memory_events
+TimeBound-Long     active            10081
+TimeBound-Long  scheduled             9581
+TimeBound-Long    expired             9520
+TimeBound-Long superseded              375
+TimeBound-Long    delayed              125
+TimeBound-Long  cancelled              125
+
+=== Validation checks ===
+       dataset check  n_examples
+TimeBound-Long    ok        1000
+
+=== External raw audit, first 40 rows ===
+dataset_root                                                        file  size_mb  n_records_or_top_items             container
+         TCP                                 data/raw/TCP/TCP_long.jsonl     1.03                   300.0           jsonl.lines
+         TCP                                data/raw/TCP/TCP_short.jsonl     1.18                   300.0           jsonl.lines
+  TempReason                            data/raw/TempReason/test_l1.json     0.63                     NaN error:JSONDecodeError
+  TempReason                     data/raw/TempReason/test_l1_future.json     0.31                     NaN error:JSONDecodeError
+  TempReason                            data/raw/TempReason/test_l2.json    64.35                     NaN error:JSONDecodeError
+  TempReason                            data/raw/TempReason/test_l3.json    59.30                     NaN error:JSONDecodeError
+  TempReason                           data/raw/TempReason/train_l1.json    63.32                     NaN error:JSONDecodeError
+  TempReason                           data/raw/TempReason/train_l2.json   157.89                     NaN error:JSONDecodeError
+  TempReason                           data/raw/TempReason/train_l3.json   140.17                     NaN error:JSONDecodeError
+  TempReason                             data/raw/TempReason/val_l1.json     0.63                     NaN error:JSONDecodeError
+  TempReason                             data/raw/TempReason/val_l2.json    55.90                     NaN error:JSONDecodeError
+  TempReason                             data/raw/TempReason/val_l3.json    51.06                     NaN error:JSONDecodeError
+  complex-tr            data/raw/complex-tr/pseudo_instruction_data.json   241.00                     NaN error:JSONDecodeError
+  complex-tr                          data/raw/complex-tr/test_gold.json     4.14                     NaN error:JSONDecodeError
+  complex-tr                      data/raw/complex-tr/test_gold_gcs.json   185.28                     NaN error:JSONDecodeError
+  complex-tr            data/raw/complex-tr/test_gold_processed_gcs.json   241.37                     NaN error:JSONDecodeError
+  complex-tr                          data/raw/complex-tr/train_gcs.json  3788.74                     NaN     too_large_skipped
+  complex-tr                        data/raw/complex-tr/train_joint.json    93.52                     NaN error:JSONDecodeError
+  complex-tr                data/raw/complex-tr/train_processed_gcs.json  4486.25                     NaN     too_large_skipped
+  complex-tr                            data/raw/complex-tr/val_gcs.json  2428.41                     NaN     too_large_skipped
+  complex-tr                          data/raw/complex-tr/val_joint.json    65.12                     NaN error:JSONDecodeError
+  complex-tr                  data/raw/complex-tr/val_processed_gcs.json  3333.11                     NaN     too_large_skipped
+      locomo                          data/raw/locomo/data/locomo10.json     2.68                    10.0                  list
+      locomo                  data/raw/locomo/data/msc_personas_all.json     2.91                     3.0             dict.keys
+      locomo data/raw/locomo/data/multimodal_dialog/example/agent_a.json     0.00                     2.0             dict.keys
+      locomo data/raw/locomo/data/multimodal_dialog/example/agent_b.json     0.00                     2.0             dict.keys
+
+Saved CSVs to: /home/tahiti/TimeBound/stats

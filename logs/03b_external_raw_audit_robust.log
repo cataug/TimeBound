@@ -1,0 +1,41 @@
+dataset_root                                                                  file  size_mb  n_records_or_lines                                     container
+         TCP                                           data/raw/TCP/TCP_long.jsonl     1.03                 300       jsonl_or_ndjson:first=dict:sample_bad=0
+         TCP                                          data/raw/TCP/TCP_short.jsonl     1.18                 300       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                      data/raw/TempReason/test_l1.json     0.63                4000       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                               data/raw/TempReason/test_l1_future.json     0.31                2000       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                      data/raw/TempReason/test_l2.json    64.35                5397       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                      data/raw/TempReason/test_l3.json    59.30                4426       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                     data/raw/TempReason/train_l1.json    63.32              400000       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                     data/raw/TempReason/train_l2.json   157.89               16017       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                     data/raw/TempReason/train_l3.json   140.17               13014       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                       data/raw/TempReason/val_l1.json     0.63                4000       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                       data/raw/TempReason/val_l2.json    55.90                5521       jsonl_or_ndjson:first=dict:sample_bad=0
+  TempReason                                       data/raw/TempReason/val_l3.json    51.06                4437       jsonl_or_ndjson:first=dict:sample_bad=0
+  complex-tr                      data/raw/complex-tr/pseudo_instruction_data.json   241.00               51451       jsonl_or_ndjson:first=dict:sample_bad=0
+  complex-tr                                    data/raw/complex-tr/test_gold.json     4.14                 329       jsonl_or_ndjson:first=dict:sample_bad=0
+  complex-tr                                data/raw/complex-tr/test_gold_gcs.json   185.28                 329       jsonl_or_ndjson:first=dict:sample_bad=0
+  complex-tr                      data/raw/complex-tr/test_gold_processed_gcs.json   241.37                 329       jsonl_or_ndjson:first=dict:sample_bad=0
+  complex-tr                                    data/raw/complex-tr/train_gcs.json  3788.74                6511 line_count_large_file:first=dict:sample_bad=0
+  complex-tr                                  data/raw/complex-tr/train_joint.json    93.52                6511       jsonl_or_ndjson:first=dict:sample_bad=0
+  complex-tr                          data/raw/complex-tr/train_processed_gcs.json  4486.25                6511 line_count_large_file:first=dict:sample_bad=0
+  complex-tr                                      data/raw/complex-tr/val_gcs.json  2428.41                3993 line_count_large_file:first=dict:sample_bad=0
+  complex-tr                                    data/raw/complex-tr/val_joint.json    65.12                3993       jsonl_or_ndjson:first=dict:sample_bad=0
+  complex-tr                            data/raw/complex-tr/val_processed_gcs.json  3333.11                3993 line_count_large_file:first=dict:sample_bad=0
+      locomo                                    data/raw/locomo/data/locomo10.json     2.68                  10                                     json.list
+      locomo                            data/raw/locomo/data/msc_personas_all.json     2.91                4000                               json.dict.train
+      locomo           data/raw/locomo/data/multimodal_dialog/example/agent_a.json     0.00                   2                                json.dict.keys
+      locomo           data/raw/locomo/data/multimodal_dialog/example/agent_b.json     0.00                   2                                json.dict.keys
+      locomo        data/raw/locomo/prompt_examples/causal_event_kg_example_1.json     0.01                  41                                     json.list
+      locomo         data/raw/locomo/prompt_examples/causal_event_kg_output_1.json     0.00                  34                                     json.list
+      locomo             data/raw/locomo/prompt_examples/chatgpt_instructions.json     0.01                  17                                json.dict.keys
+      locomo        data/raw/locomo/prompt_examples/event_generation_examples.json     0.00                   1                            json.dict.examples
+      locomo         data/raw/locomo/prompt_examples/fact_generation_examples.json     0.00                   1                            json.dict.examples
+      locomo     data/raw/locomo/prompt_examples/fact_generation_examples_new.json     0.01                   1                            json.dict.examples
+      locomo        data/raw/locomo/prompt_examples/graph_generation_examples.json     0.01                   1                            json.dict.examples
+      locomo           data/raw/locomo/prompt_examples/image_sharing_examples.json     0.00                   1                            json.dict.examples
+      locomo      data/raw/locomo/prompt_examples/persona_generation_examples.json     0.00                   1                            json.dict.examples
+      locomo          data/raw/locomo/prompt_examples/remove_context_examples.json     0.00                   4                            json.dict.examples
+      locomo    data/raw/locomo/prompt_examples/sub_event_generation_examples.json     0.00                   2                            json.dict.examples
+      locomo data/raw/locomo/prompt_examples/visual_graph_generation_examples.json     0.01                   1                            json.dict.examples
+
+Saved: /home/tahiti/TimeBound/stats/external_raw_audit_robust.csv

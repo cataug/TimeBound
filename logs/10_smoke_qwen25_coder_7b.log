@@ -1,0 +1,34 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+====================================================================================================
+MODEL: models/Qwen__Qwen2.5-Coder-7B-Instruct
+CUDA: True
+GPU: NVIDIA A100-PCIE-40GB
+VRAM allocated before: 0.0 GB
+====================================================================================================
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:26,  8.91s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:18<00:18,  9.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:26<00:08,  8.65s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:28<00:00,  5.95s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:28<00:00,  7.02s/it]
+/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:629: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:634: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:651: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+
+=== OUTPUT TAIL ===
+system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.
+user
+You are a temporal-memory QA system. Use only the context. Context: Alex scheduled a meeting for Monday. Later, Alex cancelled the meeting. Question: Is the meeting still scheduled? Answer briefly:
+assistant
+No, the meeting is not scheduled.
+
+=== RESULT_JSON ===
+{
+  "model": "models/Qwen__Qwen2.5-Coder-7B-Instruct",
+  "load_sec": 29.284,
+  "gen_sec": 1.192,
+  "max_new_tokens": 64,
+  "cuda": true,
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "vram_allocated_gb": 14.235,
+  "vram_reserved_gb": 14.361
+}

@@ -1,0 +1,16 @@
+file,size_bytes
+DATASET_CARD.md,1231
+README_RELEASE.md,591
+data/timebound_long.jsonl,8460895
+latex_generation_stats.tex,358
+latex_task_distribution.tex,443
+scripts/02_generate_timebound_long_reviewer.py,10582
+scripts/03_reviewer_dataset_statistics.py,6656
+scripts/03b_external_raw_audit_robust.py,2338
+scripts/04_prepare_timebound_package.py,11237
+stats/timebound_dataset_summary.csv,288
+stats/timebound_status_distribution.csv,210
+stats/timebound_task_distribution.csv,377
+stats/timebound_validation_checks.csv,50
+timebound_examples_by_task.json,196035
+timebound_examples_by_task.md,26723

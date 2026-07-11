@@ -1,0 +1,46 @@
+[
+  {
+    "dataset": "complextr",
+    "n_examples": 329,
+    "answer_leak_examples": 259,
+    "answer_leak_rate": 0.7872340425531915,
+    "examples": [
+      {
+        "id": "complextr_000000",
+        "answer": "University of Copenhagen",
+        "first_turn": "Hans KramersHendrik Anthony \"Hans\" Kramers (2 February 1894 – 24 April 1952) was a Dutch physicist who worked with Niels Bohr to understand how electromagnetic waves interact with matter and made important contributions to quantum mechanics and statistical physics.Hans Kramers was born in Rotterdam."
+      },
+      {
+        "id": "complextr_000002",
+        "answer": "Estonian National Independence Party",
+        "first_turn": "Jüri AdamsJüri Adams (born 22 November 1947) is an Estonian politician."
+      },
+      {
+        "id": "complextr_000003",
+        "answer": "Philips",
+        "first_turn": "Gustav Ludwig HertzGustav Ludwig Hertz (; 22 July 1887 – 30 October 1975) was a German experimental physicist and Nobel Prize winner for his work on inelastic electron collisions in gases, and a nephew of Heinrich Rudolf Hertz.Hertz was born in Hamburg, the son of Auguste (née Arning) and a lawyer, "
+      }
+    ]
+  },
+  {
+    "dataset": "locomo",
+    "n_examples": 500,
+    "answer_leak_examples": 0,
+    "answer_leak_rate": 0.0,
+    "examples": []
+  },
+  {
+    "dataset": "tcp",
+    "n_examples": 600,
+    "answer_leak_examples": 0,
+    "answer_leak_rate": 0.0,
+    "examples": []
+  },
+  {
+    "dataset": "tempreason",
+    "n_examples": 10000,
+    "answer_leak_examples": 0,
+    "answer_leak_rate": 0.0,
+    "examples": []
+  }
+]

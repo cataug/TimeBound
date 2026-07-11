@@ -1,0 +1,5 @@
+dataset,diagnostic_role,n,share
+complextr,interval_qa,329,1.0
+locomo,long_memory_localization,500,1.0
+tcp,constraint_scheduling,600,1.0
+tempreason,temporal_arithmetic,10000,1.0

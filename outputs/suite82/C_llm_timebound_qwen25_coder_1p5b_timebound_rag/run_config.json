@@ -1,0 +1,21 @@
+{
+  "run_id": "C_llm_timebound_qwen25_coder_1p5b_timebound_rag",
+  "block": "C_main_llm_timebound",
+  "run_type": "llm",
+  "dataset_key": "timebound_long",
+  "dataset_path": "synthetic/timebound_long.jsonl",
+  "retriever": "",
+  "regime": "timebound_rag",
+  "model_key": "qwen25_coder_1p5b",
+  "model_path": "models/Qwen__Qwen2.5-Coder-1.5B-Instruct",
+  "ablation_group": "",
+  "components": "",
+  "disabled_metadata": "",
+  "top_k": "3",
+  "alpha": "0.6",
+  "beta": "0.3",
+  "gamma": "0.3",
+  "limit": "",
+  "max_new_tokens": "64",
+  "note": "Main local LLM reader run on TimeBound-Long"
+}

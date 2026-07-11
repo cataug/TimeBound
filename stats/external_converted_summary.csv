@@ -1,0 +1,5 @@
+dataset,n_examples,history_min,history_mean,history_max,gold_evidence_min,gold_evidence_mean,gold_evidence_max,validation_ok,validation_non_ok,path
+tempreason,10000,1,9.7258,45,1,1.0,1,10000,0,/home/tahiti/TimeBound/converted_external_selected/tempreason_timebound.jsonl
+complextr,329,15,38.27051671732523,60,1,1.0,1,329,0,/home/tahiti/TimeBound/converted_external_selected/complextr_timebound.jsonl
+tcp,600,16,27.251666666666665,49,1,1.0,1,600,0,/home/tahiti/TimeBound/converted_external_selected/tcp_timebound.jsonl
+locomo,500,5,6.492,12,1,1.0,1,500,0,/home/tahiti/TimeBound/converted_external_selected/locomo_timebound.jsonl

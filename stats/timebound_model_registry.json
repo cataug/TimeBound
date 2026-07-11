@@ -1,0 +1,161 @@
+[
+  {
+    "key": "qwen25_coder_1p5b",
+    "kind": "small coder reader",
+    "canonical": "/home/tahiti/TimeBound/models/Qwen__Qwen2.5-Coder-1.5B-Instruct",
+    "available": true,
+    "final_reason": "ok",
+    "chosen_source": "/home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-1.5B-Instruct",
+    "link_action": "symlink_created_to:/home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-1.5B-Instruct",
+    "size_gb": 2.89,
+    "model_type": "qwen2",
+    "architectures": "Qwen2ForCausalLM",
+    "torch_dtype": "bfloat16",
+    "num_hidden_layers": 28,
+    "hidden_size": 1536,
+    "candidate_report": [
+      {
+        "path": "/home/tahiti/TimeBound/models/Qwen__Qwen2.5-Coder-1.5B-Instruct",
+        "exists": false,
+        "ok": false,
+        "reason": "missing_or_not_dir",
+        "size_gb": 0
+      },
+      {
+        "path": "/home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-1.5B-Instruct",
+        "exists": true,
+        "ok": true,
+        "reason": "ok",
+        "size_gb": 2.89
+      },
+      {
+        "path": "/home/tahiti/crypto/models/Qwen2.5-Coder-1.5B-Instruct",
+        "exists": false,
+        "ok": false,
+        "reason": "missing_or_not_dir",
+        "size_gb": 0
+      }
+    ]
+  },
+  {
+    "key": "qwen25_coder_7b",
+    "kind": "main coder reader",
+    "canonical": "/home/tahiti/TimeBound/models/Qwen__Qwen2.5-Coder-7B-Instruct",
+    "available": true,
+    "final_reason": "ok",
+    "chosen_source": "/home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct",
+    "link_action": "symlink_created_to:/home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct",
+    "size_gb": 14.2,
+    "model_type": "qwen2",
+    "architectures": "Qwen2ForCausalLM",
+    "torch_dtype": "bfloat16",
+    "num_hidden_layers": 28,
+    "hidden_size": 3584,
+    "candidate_report": [
+      {
+        "path": "/home/tahiti/TimeBound/models/Qwen__Qwen2.5-Coder-7B-Instruct",
+        "exists": false,
+        "ok": false,
+        "reason": "missing_or_not_dir",
+        "size_gb": 0
+      },
+      {
+        "path": "/home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct",
+        "exists": true,
+        "ok": true,
+        "reason": "ok",
+        "size_gb": 14.2
+      },
+      {
+        "path": "/home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-7B-Instruct",
+        "exists": true,
+        "ok": true,
+        "reason": "ok",
+        "size_gb": 14.2
+      },
+      {
+        "path": "/home/tahiti/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-7B-Instruct/snapshots/c03e6d358207e414f1eca0bb1891e29f1db0e242",
+        "exists": true,
+        "ok": false,
+        "reason": "no_weights",
+        "size_gb": 0.01
+      }
+    ]
+  },
+  {
+    "key": "qwen25_7b",
+    "kind": "general Qwen reader",
+    "canonical": "/home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct",
+    "available": true,
+    "final_reason": "ok",
+    "chosen_source": "/home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct",
+    "link_action": "canonical_exists",
+    "size_gb": 14.2,
+    "model_type": "qwen2",
+    "architectures": "Qwen2ForCausalLM",
+    "torch_dtype": "bfloat16",
+    "num_hidden_layers": 28,
+    "hidden_size": 3584,
+    "candidate_report": [
+      {
+        "path": "/home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct",
+        "exists": true,
+        "ok": true,
+        "reason": "ok",
+        "size_gb": 14.2
+      },
+      {
+        "path": "/home/tahiti/Spec2Test/models/Qwen__Qwen2.5-7B-Instruct",
+        "exists": false,
+        "ok": false,
+        "reason": "missing_or_not_dir",
+        "size_gb": 0
+      },
+      {
+        "path": "/home/tahiti/crypto/models/Qwen2.5-7B-Instruct",
+        "exists": false,
+        "ok": false,
+        "reason": "missing_or_not_dir",
+        "size_gb": 0
+      }
+    ]
+  },
+  {
+    "key": "mistral_7b_v03",
+    "kind": "non-Qwen reader",
+    "canonical": "/home/tahiti/TimeBound/models/mistralai__Mistral-7B-Instruct-v0.3",
+    "available": true,
+    "final_reason": "ok",
+    "chosen_source": "/home/tahiti/TimeBound/models/mistralai__Mistral-7B-Instruct-v0.3",
+    "link_action": "canonical_exists",
+    "size_gb": 27.0,
+    "model_type": "mistral",
+    "architectures": "MistralForCausalLM",
+    "torch_dtype": "bfloat16",
+    "num_hidden_layers": 32,
+    "hidden_size": 4096,
+    "candidate_report": [
+      {
+        "path": "/home/tahiti/TimeBound/models/mistralai__Mistral-7B-Instruct-v0.3",
+        "exists": true,
+        "ok": true,
+        "reason": "ok",
+        "size_gb": 27.0
+      },
+      {
+        "path": "/home/tahiti/Spec2Test/models/mistralai__Mistral-7B-Instruct-v0.3",
+        "exists": false,
+        "ok": false,
+        "reason": "missing_or_not_dir",
+        "size_gb": 0
+      },
+      {
+        "path": "/home/tahiti/crypto/models/Mistral-7B-Instruct-v0.3",
+        "exists": false,
+        "ok": false,
+        "reason": "missing_or_not_dir",
+        "size_gb": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "path": "/home/tahiti/TimeBound/synthetic/timebound_long.jsonl",
+  "n_examples": 1000,
+  "seed": 42,
+  "task_distribution": {
+    "rescheduling": 125,
+    "conflicting_updates": 125,
+    "time_window_retrieval": 125,
+    "aging_facts": 125,
+    "periodic_events": 125,
+    "delayed_observations": 125,
+    "cancellation": 125,
+    "elapsed_time_reasoning": 125
+  },
+  "history_min": 15,
+  "history_mean": 29.807,
+  "history_max": 46,
+  "evidence_min": 1,
+  "evidence_mean": 1.5,
+  "evidence_max": 2
+}

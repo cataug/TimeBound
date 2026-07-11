@@ -1,0 +1,5 @@
+dataset,n_examples,bad_jsonl_lines,history_min,history_mean,history_max,gold_evidence_min,gold_evidence_mean,gold_evidence_max,validation_ok,validation_non_ok,answer_leak_examples,answer_leak_rate,path
+complextr,329,0,4,4.0,4,1,1.0,1,329,0,0,0.0,/home/tahiti/TimeBound/converted_external_clean/complextr_timebound_clean.jsonl
+locomo,500,0,41,46.16,55,1,1.0,1,500,0,0,0.0,/home/tahiti/TimeBound/converted_external_clean/locomo_timebound_clean.jsonl
+tcp,600,0,11,21.018333333333334,41,1,1.0,1,600,0,0,0.0,/home/tahiti/TimeBound/converted_external_clean/tcp_timebound_clean.jsonl
+tempreason,10000,0,1,1.018,3,1,1.0,1,10000,0,0,0.0,/home/tahiti/TimeBound/converted_external_clean/tempreason_timebound_clean.jsonl

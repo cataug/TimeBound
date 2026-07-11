@@ -1,0 +1,19 @@
+
+=== External clean final summary ===
+{'dataset': 'complextr', 'n_examples': 329, 'bad_jsonl_lines': 0, 'history_min': 4, 'history_mean': 4.0, 'history_max': 4, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 329, 'validation_non_ok': 0, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0, 'path': '/home/tahiti/TimeBound/converted_external_clean/complextr_timebound_clean.jsonl'}
+{'dataset': 'locomo', 'n_examples': 500, 'bad_jsonl_lines': 0, 'history_min': 41, 'history_mean': 46.16, 'history_max': 55, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 500, 'validation_non_ok': 0, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0, 'path': '/home/tahiti/TimeBound/converted_external_clean/locomo_timebound_clean.jsonl'}
+{'dataset': 'tcp', 'n_examples': 600, 'bad_jsonl_lines': 0, 'history_min': 11, 'history_mean': 21.018333333333334, 'history_max': 41, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 600, 'validation_non_ok': 0, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0, 'path': '/home/tahiti/TimeBound/converted_external_clean/tcp_timebound_clean.jsonl'}
+{'dataset': 'tempreason', 'n_examples': 10000, 'bad_jsonl_lines': 0, 'history_min': 1, 'history_mean': 1.018, 'history_max': 3, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 10000, 'validation_non_ok': 0, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0, 'path': '/home/tahiti/TimeBound/converted_external_clean/tempreason_timebound_clean.jsonl'}
+
+=== Leakage ===
+{'dataset': 'complextr', 'n_examples': 329, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0}
+{'dataset': 'locomo', 'n_examples': 500, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0}
+{'dataset': 'tcp', 'n_examples': 600, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0}
+{'dataset': 'tempreason', 'n_examples': 10000, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0}
+
+Saved final clean stats to:
+/home/tahiti/TimeBound/stats/external_clean_final_summary.csv
+/home/tahiti/TimeBound/stats/external_clean_final_roles.csv
+/home/tahiti/TimeBound/stats/external_clean_final_validation.csv
+/home/tahiti/TimeBound/stats/external_clean_final_leakage.csv
+/home/tahiti/TimeBound/stats/latex_external_clean_final_summary.tex

@@ -1,0 +1,21 @@
+{
+  "run_id": "B_metadata_no_query_time",
+  "block": "B_retrieval_ablations",
+  "run_type": "retrieval_ablation",
+  "dataset_key": "timebound_long",
+  "dataset_path": "synthetic/timebound_long.jsonl",
+  "retriever": "timebound_ablation",
+  "regime": "",
+  "model_key": "",
+  "model_path": "",
+  "ablation_group": "metadata_removal",
+  "components": "semantic+temporal+status",
+  "disabled_metadata": "query_time",
+  "top_k": "3",
+  "alpha": "0.6",
+  "beta": "0.3",
+  "gamma": "0.3",
+  "limit": "",
+  "max_new_tokens": "64",
+  "note": "TimeBound metadata-removal ablation"
+}

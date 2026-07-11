@@ -1,0 +1,56 @@
+[BACKUP] /home/tahiti/TimeBound/stats/suite82_summary_before_parser_fix.csv
+[FIXED] C_llm_timebound_mistral_7b_v03_full_history changed=0 relaxed=0.5500
+[FIXED] C_llm_timebound_mistral_7b_v03_oracle_evidence changed=0 relaxed=0.7220
+[FIXED] C_llm_timebound_mistral_7b_v03_recency_rag changed=0 relaxed=0.1630
+[FIXED] C_llm_timebound_mistral_7b_v03_semantic_rag changed=0 relaxed=0.5020
+[FIXED] C_llm_timebound_mistral_7b_v03_semantic_recency_rag changed=0 relaxed=0.3840
+[FIXED] C_llm_timebound_mistral_7b_v03_timebound_rag changed=0 relaxed=0.7140
+[FIXED] C_llm_timebound_qwen25_7b_full_history changed=1000 relaxed=0.5130
+[FIXED] C_llm_timebound_qwen25_7b_oracle_evidence changed=1000 relaxed=0.6770
+[FIXED] C_llm_timebound_qwen25_7b_recency_rag changed=998 relaxed=0.2360
+[FIXED] C_llm_timebound_qwen25_7b_semantic_rag changed=1000 relaxed=0.4040
+[FIXED] C_llm_timebound_qwen25_7b_semantic_recency_rag changed=998 relaxed=0.3410
+[FIXED] C_llm_timebound_qwen25_7b_timebound_rag changed=995 relaxed=0.7110
+[FIXED] C_llm_timebound_qwen25_coder_1p5b_full_history changed=1000 relaxed=0.4370
+[FIXED] C_llm_timebound_qwen25_coder_1p5b_oracle_evidence changed=1000 relaxed=0.5390
+[FIXED] C_llm_timebound_qwen25_coder_1p5b_recency_rag changed=1000 relaxed=0.3650
+[FIXED] C_llm_timebound_qwen25_coder_1p5b_semantic_rag changed=1000 relaxed=0.4040
+[FIXED] C_llm_timebound_qwen25_coder_1p5b_semantic_recency_rag changed=1000 relaxed=0.3760
+[FIXED] C_llm_timebound_qwen25_coder_1p5b_timebound_rag changed=1000 relaxed=0.6640
+[FIXED] C_llm_timebound_qwen25_coder_7b_full_history changed=1000 relaxed=0.6490
+[FIXED] C_llm_timebound_qwen25_coder_7b_oracle_evidence changed=1000 relaxed=0.8660
+[FIXED] C_llm_timebound_qwen25_coder_7b_recency_rag changed=1000 relaxed=0.1640
+[FIXED] C_llm_timebound_qwen25_coder_7b_semantic_rag changed=1000 relaxed=0.5910
+[FIXED] C_llm_timebound_qwen25_coder_7b_semantic_recency_rag changed=1000 relaxed=0.4660
+[FIXED] C_llm_timebound_qwen25_coder_7b_timebound_rag changed=1000 relaxed=0.7850
+[FIXED] D_external_reader_complextr_mistral_7b_v03_query_only changed=0 relaxed=0.0000
+[FIXED] D_external_reader_complextr_qwen25_7b_query_only changed=1 relaxed=0.0334
+[FIXED] D_external_reader_complextr_qwen25_coder_1p5b_query_only changed=9 relaxed=0.0243
+[FIXED] D_external_reader_complextr_qwen25_coder_7b_query_only changed=4 relaxed=0.0304
+[FIXED] D_external_reader_locomo_mistral_7b_v03_semantic_rag changed=0 relaxed=0.0100
+[FIXED] D_external_reader_locomo_mistral_7b_v03_timebound_rag changed=0 relaxed=0.0100
+[FIXED] D_external_reader_locomo_qwen25_7b_semantic_rag changed=482 relaxed=0.0080
+[FIXED] D_external_reader_locomo_qwen25_7b_timebound_rag changed=482 relaxed=0.0080
+[FIXED] D_external_reader_locomo_qwen25_coder_1p5b_semantic_rag changed=500 relaxed=0.0440
+[FIXED] D_external_reader_locomo_qwen25_coder_1p5b_timebound_rag changed=500 relaxed=0.0440
+[FIXED] D_external_reader_locomo_qwen25_coder_7b_semantic_rag changed=500 relaxed=0.0220
+[FIXED] D_external_reader_locomo_qwen25_coder_7b_timebound_rag changed=500 relaxed=0.0220
+[FIXED] D_external_reader_tcp_mistral_7b_v03_semantic_rag changed=131 relaxed=0.0017
+[FIXED] D_external_reader_tcp_mistral_7b_v03_timebound_rag changed=131 relaxed=0.0017
+[FIXED] D_external_reader_tcp_qwen25_7b_semantic_rag changed=580 relaxed=0.0017
+[FIXED] D_external_reader_tcp_qwen25_7b_timebound_rag changed=580 relaxed=0.0017
+[FIXED] D_external_reader_tcp_qwen25_coder_1p5b_semantic_rag changed=600 relaxed=0.0133
+[FIXED] D_external_reader_tcp_qwen25_coder_1p5b_timebound_rag changed=600 relaxed=0.0133
+[FIXED] D_external_reader_tcp_qwen25_coder_7b_semantic_rag changed=600 relaxed=0.0050
+[FIXED] D_external_reader_tcp_qwen25_coder_7b_timebound_rag changed=600 relaxed=0.0050
+[FIXED] D_external_reader_tempreason_mistral_7b_v03_query_only changed=0 relaxed=0.0000
+[FIXED] D_external_reader_tempreason_qwen25_7b_query_only changed=2 relaxed=0.1361
+[FIXED] D_external_reader_tempreason_qwen25_coder_1p5b_query_only changed=13 relaxed=0.0059
+[FIXED] D_external_reader_tempreason_qwen25_coder_7b_query_only changed=19 relaxed=0.1010
+
+[DONE]
+changed_runs: 38
+changed_rows: 24825
+fixed summary: /home/tahiti/TimeBound/stats/suite82_summary_fixed.csv
+fixed main llm: /home/tahiti/TimeBound/tables/table_main_llm_timebound_fixed.csv
+fixed external: /home/tahiti/TimeBound/tables/table_external_diagnostics_fixed.csv

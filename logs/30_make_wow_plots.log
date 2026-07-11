@@ -1,0 +1,23 @@
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/01_main_retrieval_scoreboard.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/01_main_retrieval_scoreboard.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/02_retrieval_tradeoff_scatter.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/02_retrieval_tradeoff_scatter.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/03_topk_sensitivity_timebound.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/03_topk_sensitivity_timebound.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/04_main_llm_heatmap.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/04_main_llm_heatmap.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/05_timebound_vs_semantic_gain.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/05_timebound_vs_semantic_gain.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/06_main_llm_leaderboard.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/06_main_llm_leaderboard.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/07_score_component_ablation.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/07_score_component_ablation.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/08_metadata_ablation.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/08_metadata_ablation.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/09_external_diagnostics_heatmap.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/09_external_diagnostics_heatmap.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/10_context_vs_accuracy.png
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/10_context_vs_accuracy.pdf
+[OK] /home/tahiti/TimeBound/PLOTS_WOW/README_PLOTS.md
+
+[DONE] WOW plots saved to: /home/tahiti/TimeBound/PLOTS_WOW

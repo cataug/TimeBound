@@ -1,0 +1,12 @@
+[OK] tempreason: 10000 -> /home/tahiti/TimeBound/converted_external_clean/tempreason_timebound_clean.jsonl
+[OK] complextr: 329 -> /home/tahiti/TimeBound/converted_external_clean/complextr_timebound_clean.jsonl
+[OK] tcp: 600 -> /home/tahiti/TimeBound/converted_external_clean/tcp_timebound_clean.jsonl
+[OK] locomo: 500 -> /home/tahiti/TimeBound/converted_external_clean/locomo_timebound_clean.jsonl
+
+=== Clean external conversion summary ===
+{'dataset': 'tempreason', 'n_examples': 10000, 'history_min': 1, 'history_mean': 1.018, 'history_max': 3, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 10000, 'validation_non_ok': 0, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0, 'path': '/home/tahiti/TimeBound/converted_external_clean/tempreason_timebound_clean.jsonl'}
+{'dataset': 'complextr', 'n_examples': 329, 'history_min': 3, 'history_mean': 21.914893617021278, 'history_max': 53, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 329, 'validation_non_ok': 0, 'answer_leak_examples': 259, 'answer_leak_rate': 0.7872340425531915, 'path': '/home/tahiti/TimeBound/converted_external_clean/complextr_timebound_clean.jsonl'}
+{'dataset': 'tcp', 'n_examples': 600, 'history_min': 11, 'history_mean': 21.018333333333334, 'history_max': 41, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 600, 'validation_non_ok': 0, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0, 'path': '/home/tahiti/TimeBound/converted_external_clean/tcp_timebound_clean.jsonl'}
+{'dataset': 'locomo', 'n_examples': 500, 'history_min': 41, 'history_mean': 46.16, 'history_max': 55, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 500, 'validation_non_ok': 0, 'answer_leak_examples': 0, 'answer_leak_rate': 0.0, 'path': '/home/tahiti/TimeBound/converted_external_clean/locomo_timebound_clean.jsonl'}
+
+Saved clean conversion to: /home/tahiti/TimeBound/converted_external_clean

@@ -1,0 +1,9 @@
+task_type,n,evidence_precision,evidence_recall,evidence_f1,exact_evidence_hit,invalid_retrieval_rate,cancelled_retrieval_rate,superseded_retrieval_rate,expired_retrieval_rate,retrieved_count,retrieved_chars,latency_sec
+aging_facts,125,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0,43.144,5.100250244140625e-06
+cancellation,125,1.0,1.0,1.0,1.0,0.5,0.5,0.0,0.0,2.0,103.12,5.136489868164063e-06
+conflicting_updates,125,1.0,1.0,1.0,1.0,0.5,0.0,0.5,0.0,2.0,113.728,5.146026611328125e-06
+delayed_observations,125,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,73.624,4.215240478515625e-06
+elapsed_time_reasoning,125,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,91.096,4.5223236083984375e-06
+periodic_events,125,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,63.128,4.302978515625e-06
+rescheduling,125,1.0,1.0,1.0,1.0,0.5,0.0,0.5,0.0,2.0,114.76,4.865646362304688e-06
+time_window_retrieval,125,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,42.208,5.1422119140625e-06

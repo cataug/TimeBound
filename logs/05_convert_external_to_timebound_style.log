@@ -1,0 +1,16 @@
+[OK] tempreason: 10000 -> /home/tahiti/TimeBound/converted_external_selected/tempreason_timebound.jsonl
+[OK] complextr: 329 -> /home/tahiti/TimeBound/converted_external_selected/complextr_timebound.jsonl
+[OK] tcp: 600 -> /home/tahiti/TimeBound/converted_external_selected/tcp_timebound.jsonl
+[OK] locomo: 500 -> /home/tahiti/TimeBound/converted_external_selected/locomo_timebound.jsonl
+
+=== External converted summary ===
+{'dataset': 'tempreason', 'n_examples': 10000, 'history_min': 1, 'history_mean': 9.7258, 'history_max': 45, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 10000, 'validation_non_ok': 0, 'path': '/home/tahiti/TimeBound/converted_external_selected/tempreason_timebound.jsonl'}
+{'dataset': 'complextr', 'n_examples': 329, 'history_min': 15, 'history_mean': 38.27051671732523, 'history_max': 60, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 329, 'validation_non_ok': 0, 'path': '/home/tahiti/TimeBound/converted_external_selected/complextr_timebound.jsonl'}
+{'dataset': 'tcp', 'n_examples': 600, 'history_min': 16, 'history_mean': 27.251666666666665, 'history_max': 49, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 600, 'validation_non_ok': 0, 'path': '/home/tahiti/TimeBound/converted_external_selected/tcp_timebound.jsonl'}
+{'dataset': 'locomo', 'n_examples': 500, 'history_min': 5, 'history_mean': 6.492, 'history_max': 12, 'gold_evidence_min': 1, 'gold_evidence_mean': 1.0, 'gold_evidence_max': 1, 'validation_ok': 500, 'validation_non_ok': 0, 'path': '/home/tahiti/TimeBound/converted_external_selected/locomo_timebound.jsonl'}
+
+Saved:
+/home/tahiti/TimeBound/stats/external_converted_summary.csv
+/home/tahiti/TimeBound/stats/external_converted_roles.csv
+/home/tahiti/TimeBound/stats/external_converted_validation.csv
+/home/tahiti/TimeBound/stats/latex_external_converted_summary.tex

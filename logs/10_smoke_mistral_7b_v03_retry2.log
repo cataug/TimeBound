@@ -1,0 +1,23 @@
+====================================================================================================
+MODEL: models/mistralai__Mistral-7B-Instruct-v0.3
+CUDA: True
+GPU: NVIDIA A100-PCIE-40GB
+VRAM allocated before: 0.0 GB
+====================================================================================================
+[WARN] AutoTokenizer failed: ImportError('\n requires the protobuf library but it was not found in your environment. Checkout the instructions on the\ninstallation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+[FALLBACK] loading tokenizer.json with PreTrainedTokenizerFast
+
+=== OUTPUT TAIL ===
+You are a temporal-memory QA system. Use only the context. Context: Alex scheduled a meeting for Monday. Later, Alex cancelled the meeting. Question: Is the meeting still scheduled? Answer briefly: No, the meeting is not scheduled anymore as it was cancelled.
+
+=== RESULT_JSON ===
+{
+  "model": "models/mistralai__Mistral-7B-Instruct-v0.3",
+  "load_sec": 6.346,
+  "gen_sec": 1.352,
+  "max_new_tokens": 64,
+  "cuda": true,
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "vram_allocated_gb": 13.508,
+  "vram_reserved_gb": 13.656
+}

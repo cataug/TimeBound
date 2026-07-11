@@ -1,0 +1,61 @@
+# env/cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.cache/
+.cache_*/
+.wandb/
+wandb/
+
+# local models / HF
+models/
+hf_models/
+hf_cache/
+**/models--*/
+**/.cache/huggingface/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# public/raw external datasets - do not redistribute
+data/raw/
+data/external/
+raw/
+external_raw/
+downloads/
+
+# converted public external full examples - keep only aggregate stats/tables
+converted_external_clean/
+converted_external/
+converted_external_v*/
+
+# external per-example outputs may contain public dataset text
+outputs/suite82/D_external_*/
+
+# heavy archives / duplicate packages
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# temporary / backup
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# accidental secrets
+.env
+*.key
+*.pem
+credentials.json
+token.json
+converted_external_selected/

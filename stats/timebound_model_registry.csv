@@ -1,0 +1,5 @@
+key,kind,available,canonical,chosen_source,link_action,size_gb,model_type,architectures,torch_dtype,num_hidden_layers,hidden_size,final_reason
+qwen25_coder_1p5b,small coder reader,True,/home/tahiti/TimeBound/models/Qwen__Qwen2.5-Coder-1.5B-Instruct,/home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-1.5B-Instruct,symlink_created_to:/home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-1.5B-Instruct,2.89,qwen2,Qwen2ForCausalLM,bfloat16,28,1536,ok
+qwen25_coder_7b,main coder reader,True,/home/tahiti/TimeBound/models/Qwen__Qwen2.5-Coder-7B-Instruct,/home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct,symlink_created_to:/home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct,14.2,qwen2,Qwen2ForCausalLM,bfloat16,28,3584,ok
+qwen25_7b,general Qwen reader,True,/home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct,/home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct,canonical_exists,14.2,qwen2,Qwen2ForCausalLM,bfloat16,28,3584,ok
+mistral_7b_v03,non-Qwen reader,True,/home/tahiti/TimeBound/models/mistralai__Mistral-7B-Instruct-v0.3,/home/tahiti/TimeBound/models/mistralai__Mistral-7B-Instruct-v0.3,canonical_exists,27.0,mistral,MistralForCausalLM,bfloat16,32,4096,ok

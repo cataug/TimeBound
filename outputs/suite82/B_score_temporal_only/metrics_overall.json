@@ -1,0 +1,14 @@
+{
+  "n": 1000,
+  "evidence_precision": 0.41233333333333333,
+  "evidence_recall": 0.785,
+  "evidence_f1": 0.5281,
+  "exact_evidence_hit": 0.0,
+  "invalid_retrieval_rate": 0.3266666666666666,
+  "cancelled_retrieval_rate": 0.041666666666666664,
+  "superseded_retrieval_rate": 0.124,
+  "expired_retrieval_rate": 0.161,
+  "retrieved_count": 3.0,
+  "retrieved_chars": 157.899,
+  "latency_sec": 0.0011443967819213868
+}

@@ -1,0 +1,7 @@
+run_id,block,run_type,dataset_key,retriever,regime,model_key,ablation_group,components,disabled_metadata,top_k,alpha,beta,gamma,metric_n,metric_evidence_f1,metric_exact_evidence_hit,metric_invalid_retrieval_rate,metric_exact_accuracy,metric_relaxed_accuracy,metric_contradiction,metric_retrieved_chars,metric_prompt_chars,metric_latency_sec,metric_retrieval_sec,metric_gen_sec
+A_tb_retrieval_main_chronological,A_main_retrieval,retrieval,timebound_long,chronological,,,,,,3,0.6,0.3,0.3,1000,0.0,0.0,0.3403333333333333,,,,152.489,,0.0011147112846374512,,
+A_tb_retrieval_main_oracle,A_main_retrieval,retrieval,timebound_long,oracle,,,,,,3,0.6,0.3,0.3,1000,1.0,1.0,0.4375,,,,80.601,,4.803895950317383e-06,,
+A_tb_retrieval_main_recency,A_main_retrieval,retrieval,timebound_long,recency,,,,,,3,0.6,0.3,0.3,1000,0.0,0.0,0.3296666666666666,,,,153.226,,0.0011173052787780762,,
+A_tb_retrieval_main_semantic,A_main_retrieval,retrieval,timebound_long,semantic,,,,,,3,0.6,0.3,0.3,1000,0.5768000000000001,0.0,0.37366666666666665,,,,154.02,,0.0013280758857727051,,
+A_tb_retrieval_main_semantic_recency,A_main_retrieval,retrieval,timebound_long,semantic_recency,,,,,,3,0.6,0.3,0.3,1000,0.2538,0.0,0.368,,,,154.678,,0.0011170639991760253,,
+A_tb_retrieval_main_timebound,A_main_retrieval,retrieval,timebound_long,timebound,,,,,,3,0.6,0.3,0.3,1000,0.5415,0.0,0.15166666666666664,,,,158.156,,0.0011502814292907715,,

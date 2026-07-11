@@ -1,0 +1,2 @@
+dataset,path,n_examples,bad_jsonl_lines,n_task_families,history_min,history_mean,history_max,gold_evidence_min,gold_evidence_mean,gold_evidence_max,validation_ok,validation_non_ok
+TimeBound-Long,/home/tahiti/TimeBound/synthetic/timebound_long.jsonl,1000,0,8,15,29.807,46,1,1.5,2,1000,0

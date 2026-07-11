@@ -1,0 +1,19 @@
+{
+  "n": 1000,
+  "exact_accuracy": 0.251,
+  "relaxed_accuracy": 0.55,
+  "contradiction": 0.123,
+  "evidence_precision": 0.051835974933382586,
+  "evidence_recall": 1.0,
+  "evidence_f1": 0.09798022071982743,
+  "exact_evidence_hit": 0.0,
+  "invalid_retrieval_rate": 0.3348321037396553,
+  "cancelled_retrieval_rate": 0.003861975969592814,
+  "superseded_retrieval_rate": 0.011717422702473944,
+  "expired_retrieval_rate": 0.3192527050675885,
+  "retrieved_count": 29.807,
+  "retrieved_chars": 1527.373,
+  "retrieval_sec": 3.84519100189209e-05,
+  "gen_sec": 1.377279132604599,
+  "prompt_chars": 5230.88
+}

@@ -1,0 +1,15 @@
+[OK] wrote /home/tahiti/TimeBound/stats/run_plan_82.csv
+[OK] runs: 82
+
+Runs by block:
+  A_main_retrieval: 6
+  B_retrieval_ablations: 18
+  C_main_llm_timebound: 24
+  D_external_diagnostics: 34
+
+Plan:
+  A main retrieval: 6
+  B retrieval ablations: 18
+  C main LLM TimeBound: 24
+  D external diagnostics: 34
+  TOTAL: 82

@@ -1,0 +1,8 @@
+====================================================================================================
+MODEL: models/mistralai__Mistral-7B-Instruct-v0.3
+CUDA: True
+GPU: NVIDIA A100-PCIE-40GB
+VRAM allocated before: 0.0 GB
+====================================================================================================
+[WARN] AutoTokenizer failed: ImportError('\n requires the protobuf library but it was not found in your environment. Checkout the instructions on the\ninstallation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+[FALLBACK] loading tokenizer.json with PreTrainedTokenizerFast

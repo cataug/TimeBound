@@ -1,0 +1,21 @@
+
+=== TimeBound package summary ===
+{
+  "dataset": "TimeBound-Long",
+  "path": "/home/tahiti/TimeBound/synthetic/timebound_long.jsonl",
+  "n_examples": 1000,
+  "bad_jsonl_lines": 0,
+  "n_task_families": 8,
+  "history_min": 15,
+  "history_mean": 29.807,
+  "history_max": 46,
+  "gold_evidence_min": 1,
+  "gold_evidence_mean": 1.5,
+  "gold_evidence_max": 2,
+  "validation_ok": 1000,
+  "validation_non_ok": 0
+}
+
+Paper-ready files: /home/tahiti/TimeBound/paper_ready
+Release folder: /home/tahiti/TimeBound/release/timebound_benchmark
+Archive: /home/tahiti/TimeBound/release/timebound_benchmark_release.tar.gz

@@ -1,0 +1,123 @@
+[
+  {
+    "dataset": "complextr",
+    "n_examples": 329,
+    "answer_leak_examples": 329,
+    "answer_leak_rate": 1.0,
+    "examples": [
+      {
+        "id": "complextr_000000",
+        "query": "Which employer did Hans Kramers work for in October 1920?",
+        "answer": "University of Copenhagen",
+        "first_turn": "University of Copenhagen"
+      },
+      {
+        "id": "complextr_000001",
+        "query": "Which employer did Hans Kramers work for in September 1931?",
+        "answer": "Utrecht University Delft University of Technology",
+        "first_turn": "Utrecht University Delft University of Technology"
+      },
+      {
+        "id": "complextr_000002",
+        "query": "Which political party did Jüri Adams belong to in September 1992?",
+        "answer": "Estonian National Independence Party",
+        "first_turn": "Estonian National Independence Party"
+      },
+      {
+        "id": "complextr_000003",
+        "query": "Which employer did Gustav Ludwig Hertz work for in July 1923?",
+        "answer": "Philips",
+        "first_turn": "Philips"
+      },
+      {
+        "id": "complextr_000004",
+        "query": "Which employer did Evan Tom Davies work for in April 1971?",
+        "answer": "University of Waterloo",
+        "first_turn": "University of Waterloo"
+      }
+    ]
+  },
+  {
+    "dataset": "locomo",
+    "n_examples": 500,
+    "answer_leak_examples": 32,
+    "answer_leak_rate": 0.064,
+    "examples": [
+      {
+        "id": "locomo_000000",
+        "query": "When did Caroline go to the LGBTQ support group?",
+        "answer": "7 May 2023",
+        "first_turn": "{\"qa\": [{\"question\": \"When did Caroline go to the LGBTQ support group?\", \"answer\": \"7 May 2023\", \"evidence\": [\"D1:3\"], \"category\": 2}, {\"question\": \"When did Melanie paint a sunrise?\", \"answer\": 2022, \"evidence\": [\"D1:12\"], \"category\": 2}, {\"question\": \"What fields"
+      },
+      {
+        "id": "locomo_000001",
+        "query": "When did Melanie paint a sunrise?",
+        "answer": "2022",
+        "first_turn": "{\"qa\": [{\"question\": \"When did Caroline go to the LGBTQ support group?\", \"answer\": \"7 May 2023\", \"evidence\": [\"D1:3\"], \"category\": 2}, {\"question\": \"When did Melanie paint a sunrise?\", \"answer\": 2022, \"evidence\": [\"D1:12\"], \"category\": 2}, {\"question\": \"What fields"
+      },
+      {
+        "id": "locomo_000002",
+        "query": "What fields would Caroline be likely to pursue in her educaton?",
+        "answer": "Psychology, counseling certification",
+        "first_turn": "{\"qa\": [{\"question\": \"When did Caroline go to the LGBTQ support group?\", \"answer\": \"7 May 2023\", \"evidence\": [\"D1:3\"], \"category\": 2}, {\"question\": \"When did Melanie paint a sunrise?\", \"answer\": 2022, \"evidence\": [\"D1:12\"], \"category\": 2}, {\"question\": \"What fields"
+      },
+      {
+        "id": "locomo_000003",
+        "query": "What did Caroline research?",
+        "answer": "Adoption agencies",
+        "first_turn": "{\"qa\": [{\"question\": \"When did Caroline go to the LGBTQ support group?\", \"answer\": \"7 May 2023\", \"evidence\": [\"D1:3\"], \"category\": 2}, {\"question\": \"When did Melanie paint a sunrise?\", \"answer\": 2022, \"evidence\": [\"D1:12\"], \"category\": 2}, {\"question\": \"What fields"
+      },
+      {
+        "id": "locomo_000004",
+        "query": "What is Caroline's identity?",
+        "answer": "Transgender woman",
+        "first_turn": "{\"qa\": [{\"question\": \"When did Caroline go to the LGBTQ support group?\", \"answer\": \"7 May 2023\", \"evidence\": [\"D1:3\"], \"category\": 2}, {\"question\": \"When did Melanie paint a sunrise?\", \"answer\": 2022, \"evidence\": [\"D1:12\"], \"category\": 2}, {\"question\": \"What fields"
+      }
+    ]
+  },
+  {
+    "dataset": "tcp",
+    "n_examples": 600,
+    "answer_leak_examples": 0,
+    "answer_leak_rate": 0.0,
+    "examples": []
+  },
+  {
+    "dataset": "tempreason",
+    "n_examples": 10000,
+    "answer_leak_examples": 9996,
+    "answer_leak_rate": 0.9996,
+    "examples": [
+      {
+        "id": "tempreason_000000",
+        "query": "What is the time 6 year and 4 month after Nov, 1185",
+        "answer": "Mar, 1192",
+        "first_turn": "Mar, 1192"
+      },
+      {
+        "id": "tempreason_000001",
+        "query": "What is the time 4 year and 12 month after May, 1742",
+        "answer": "May, 1747",
+        "first_turn": "May, 1747"
+      },
+      {
+        "id": "tempreason_000002",
+        "query": "What is the time 7 year and 5 month after Oct, 1241",
+        "answer": "Mar, 1249",
+        "first_turn": "Mar, 1249"
+      },
+      {
+        "id": "tempreason_000003",
+        "query": "What is the time 10 year and 5 month after Feb, 1068",
+        "answer": "Jul, 1078",
+        "first_turn": "Jul, 1078"
+      },
+      {
+        "id": "tempreason_000004",
+        "query": "What is the time 8 year and 2 month after Jul, 1900",
+        "answer": "Sep, 1908",
+        "first_turn": "Sep, 1908"
+      }
+    ]
+  }
+]

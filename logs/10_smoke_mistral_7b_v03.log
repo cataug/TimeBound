@@ -1,0 +1,40 @@
+====================================================================================================
+MODEL: models/mistralai__Mistral-7B-Instruct-v0.3
+CUDA: True
+GPU: NVIDIA A100-PCIE-40GB
+VRAM allocated before: 0.0 GB
+====================================================================================================
+Traceback (most recent call last):
+  File "/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 2292, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 157, in __init__
+    super().__init__(
+  File "/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/tokenization_utils_fast.py", line 108, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tahiti/TimeBound/scripts/10_smoke_local_reader_models.py", line 94, in <module>
+    main()
+  File "/home/tahiti/TimeBound/scripts/10_smoke_local_reader_models.py", line 29, in main
+    tok = AutoTokenizer.from_pretrained(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 944, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 2052, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 2293, in _from_pretrained
+    except import_protobuf_decode_error():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tahiti/IconoBench/.venv_qwen/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 87, in import_protobuf_decode_error
+    raise ImportError(PROTOBUF_IMPORT_ERROR.format(error_message))
+ImportError: 
+ requires the protobuf library but it was not found in your environment. Checkout the instructions on the
+installation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+

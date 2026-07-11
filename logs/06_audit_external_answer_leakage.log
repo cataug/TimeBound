@@ -1,0 +1,9 @@
+   dataset  n_examples  answer_leak_examples  answer_leak_rate
+ complextr         329                   329            1.0000
+    locomo         500                    32            0.0640
+       tcp         600                     0            0.0000
+tempreason       10000                  9996            0.9996
+
+Saved:
+/home/tahiti/TimeBound/stats/external_answer_leakage_summary.csv
+/home/tahiti/TimeBound/stats/external_answer_leakage_examples.json
