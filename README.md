@@ -639,22 +639,6 @@ This keeps the repository lightweight and safe for public release.
 
 ---
 
-## How to cite
-
-If you use TimeBound, cite the repository for now:
-
-```bibtex
-@misc{timebound2026,
-  title        = {TimeBound: Evaluating Temporal Grounding in Long-Term Memory and RAG Agents},
-  author       = {Ivan Ivan},
-  year         = {2026},
-  howpublished = {\url{https://github.com/cataug/TimeBound}},
-  note         = {Benchmark and experimental suite}
-}
-```
-
----
-
 ## Project status
 
 Current release contents:
